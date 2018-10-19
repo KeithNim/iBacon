@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>Privacy - LocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>location for bacon</string>
+	<key>Privacy - LocationWhenInUseUsageDescription</key>
+	<string>location for bacon</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

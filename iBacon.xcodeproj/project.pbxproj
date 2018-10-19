@@ -15,6 +15,8 @@
 		989A05762179A502009D5FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989A05742179A502009D5FC5 /* LaunchScreen.storyboard */; };
 		989A05812179A502009D5FC5 /* iBaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989A05802179A502009D5FC5 /* iBaconTests.swift */; };
 		989A058C2179A502009D5FC5 /* iBaconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989A058B2179A502009D5FC5 /* iBaconUITests.swift */; };
+		989A059A2179B551009D5FC5 /* RangingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989A05992179B551009D5FC5 /* RangingTableViewController.swift */; };
+		989A059C2179B9BD009D5FC5 /* CLProximity+CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989A059B2179B9BD009D5FC5 /* CLProximity+CustomStringConvertible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		989A05872179A502009D5FC5 /* iBaconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBaconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		989A058B2179A502009D5FC5 /* iBaconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBaconUITests.swift; sourceTree = "<group>"; };
 		989A058D2179A502009D5FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989A05992179B551009D5FC5 /* RangingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangingTableViewController.swift; sourceTree = "<group>"; };
+		989A059B2179B9BD009D5FC5 /* CLProximity+CustomStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLProximity+CustomStringConvertible.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				989A05722179A502009D5FC5 /* Assets.xcassets */,
 				989A05742179A502009D5FC5 /* LaunchScreen.storyboard */,
 				989A05772179A502009D5FC5 /* Info.plist */,
+				989A05992179B551009D5FC5 /* RangingTableViewController.swift */,
+				989A059B2179B9BD009D5FC5 /* CLProximity+CustomStringConvertible.swift */,
 			);
 			path = iBacon;
 			sourceTree = "<group>";
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989A059A2179B551009D5FC5 /* RangingTableViewController.swift in Sources */,
 				989A056E2179A501009D5FC5 /* SecondViewController.swift in Sources */,
 				989A056A2179A501009D5FC5 /* AppDelegate.swift in Sources */,
 				989A056C2179A501009D5FC5 /* FirstViewController.swift in Sources */,
+				989A059C2179B9BD009D5FC5 /* CLProximity+CustomStringConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
