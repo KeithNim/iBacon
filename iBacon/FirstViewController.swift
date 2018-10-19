@@ -53,7 +53,7 @@ class FirstViewController: UIViewController, CLLocationManagerDelegate {
         label.text = "In \(region.identifier)!"
         
         let content = UNMutableNotificationContent()
-        content.title = "iBeacons App"
+        content.title = "iBacons App"
         content.body = "Entering the \(region.identifier)!"
         content.sound = .default()
         
